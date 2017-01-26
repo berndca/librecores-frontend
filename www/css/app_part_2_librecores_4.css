@@ -92,7 +92,7 @@ h1 a:hover, h1 a:active {
 .librecores-nav .navbar-brand {
     background: no-repeat scroll left center transparent;
     background-image: url("/img/logo_small.svg");
-    margin-left: 0;
+    margin-left: 10px;
     padding-left: 40px;
     display: inline-block;
     background-size: 30px 30px;
@@ -230,6 +230,12 @@ h1 a:hover, h1 a:active {
     font-weight: bold;
 }
 
+.librecores-home-showcase-link-xs {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
 .librecores-home-showcase-btn:hover, .librecores-home-showcase-btn:focus, .librecores-home-showcase-btn:visited {
     color: #3fb0ac;
 }
@@ -330,4 +336,15 @@ h1 a:hover, h1 a:active {
     padding-bottom: 10px;
     max-width: 90px;
     max-height: 90px;
+}
+
+.col-fa-3x {
+  width: 65px;
+  padding-left: 5px;
+  position: absolute;
+  height: 100%;
+}
+
+.col-offset-fa-3x{
+  padding-left: 80px;
 }
