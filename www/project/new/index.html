@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Add your project to LibreCores
+</title>
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+
+              <link rel="stylesheet" href="/css/app.css" />
+      
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+          <script src="/js/app_head.js"></script>
+      <![endif]-->
+
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700" rel="stylesheet" type="text/css">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml" href="/search.osd" title="LibreCores" />
+</head>
+<body>
+  <!-- top navigation bar -->
+  <nav class="navbar navbar-fixed-top librecores-nav" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/static/" alt="LibreCores">
+          <span class="wordmark">LibreCores</span>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/search">Search Projects</a></li>
+          <li><a href="/static/docs">Getting Started</a></li>
+          <li><a href="/planet/">Planet LibreCores</a></li>
+          <li><a href="/static/about">About LibreCores</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              Logged in as berndca
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/project/new">
+                  Add project
+                </a>
+              </li>
+                            <li role="separator" class="divider"></li>
+              <li>
+                <a href="/user/logout">
+                  Log out
+                </a>
+              </li>
+              </ul>
+                  </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+<div class="container" id="maincontent">
+          
+    <h1>Add your project to LibreCores</h1>
+
+<p>Adding your project to LibreCores is easy: just give us the name of your
+project and the location of the source code, and we'll take care of
+the rest.</p>
+
+<form name="form" method="post">
+  <div class="form-group">
+    <label class="control-label required" for="form_name">What&#039;s the name of your project?</label>
+
+    
+    
+
+    <div class="form-inline">
+      <label class="sr-only control-label required" for="form_parentName">Parent name</label>
+      <select id="form_parentName" name="form[parentName]" class="form-control"><option value="u_berndca">berndca</option></select> /
+      <input type="text" id="form_name" name="form[name]" required="required" maxlength="30" pattern=".{4,}" placeholder="project name" class="form-control" />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="control-label required" for="form_sourceRepo_url">Where can we find the source code of your project?</label>
+    
+
+    <div class="form-inline">
+      <label class="sr-only control-label required" for="form_sourceRepo_type">Repository Type</label>
+      <select id="form_sourceRepo_type" name="form[sourceRepo][type]" class="form-control"><option value="git">Git</option></select>
+      <input type="url" id="form_sourceRepo_url" name="form[sourceRepo][url]" required="required" style="width:500px" placeholder="URL, e.g. https://github.com/yourname/project" class="form-control" />
+    </div>
+  </div>
+
+  <div class="form-group">                    <button type="submit" id="form_save" name="form[save]" class="btn">Create Project</button></div>
+<input type="hidden" id="form__token" name="form[_token]" value="k4qQw83cfgUXyxOqWisCjv0EkhIuZdDBa4KkaFjxQPw" /></form>
+
+</div>
+
+  <!-- footer -->
+  <hr>
+  <footer class="librecores-footer">
+    <p>
+      LibreCores is a project of the <a href="http://fossi-foundation.org">Free and Open Source Silicon Foundation</a> &middot;
+      <a href="/static/imprint">Imprint</a>
+    </p>
+  </footer>
+
+            <script src="/js/app_body.js"></script>
+    
+    <script type="text/javascript">
+          </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85345883-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

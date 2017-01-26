@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LibreCores</title>
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+
+              <link rel="stylesheet" href="/css/app.css" />
+      
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+          <script src="/js/app_head.js"></script>
+      <![endif]-->
+
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700" rel="stylesheet" type="text/css">
+
+  
+  <link rel="search" type="application/opensearchdescription+xml" href="/search.osd" title="LibreCores" />
+</head>
+<body>
+  <!-- top navigation bar -->
+  <nav class="navbar navbar-fixed-top librecores-nav" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/static/" alt="LibreCores">
+          <span class="wordmark">LibreCores</span>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/search">Search Projects</a></li>
+          <li><a href="/static/docs">Getting Started</a></li>
+          <li><a href="/planet/">Planet LibreCores</a></li>
+          <li><a href="/static/about">About LibreCores</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+                      <li>
+              <a href="/user/register/">Register</a>
+            </li>
+            <li>
+              <a href="/user/login">Log in</a>
+            </li>
+                  </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+<div class="container" id="maincontent">
+    
+      <h1>About LibreCores</h1>
+
+<p>LibreCores is your gateway to free and open source digital designs and other components that you can use and re-use in your digital designs.
+Towards this goal, LibreCores provides you</p>
+
+<ul>
+<li>a comprehensive and easy directory of digital design components ("IP Cores"),</li>
+<li>means to assess the quality of those components, and</li>
+<li>documentation to learn more about the use and contribution to free and open source digital designs.</li>
+</ul>
+
+<p>LibreCores is a project of the <a href="http://www.fossi-foundation.org">Free and Open Source Silicon Foundation</a>, short FOSSi.</p>
+
+<h2>Frequently Asked Questions (FAQ)</h2>
+
+<h3>Who's running LibreCores?</h3>
+
+<p>LibreCores is a project of the <a href="http://www.fossi-foundation.org">Free and Open Source Silicon Foundation</a> (FOSSi), which was created to give a voice to the digital hardware design community. LibreCores, like FOSSi, is run entirely by volunteers.</p>
+
+<h3>How does LibreCores relate to OpenCores?</h3>
+
+<p>LibreCores advances the idea of OpenCores.org to give the community a place to share projects, ideas, and knowledge in the area of free and open source digital hardware design.</p>
+
+<p>As heavy users of OpenCores, we (the FOSSi Foundation) tried everything in our power to evolve the concept together with the owners of OpenCores. Unfortunately, to this day, we were not yet able to achieve this goal.
+Therefore, we decided to give it a real fresh start under the LibreCores brand.</p>
+
+<h3>What are the future plans for LibreCores?</h3>
+
+<p>At the moment, LibreCores is in a preview state.
+We've laid down much of the groundwork for the site, and are now able to iterate quickly on new ideas and features.
+We do this to enable everybody to get involved and shape the future of LibreCores with the goal of making it a place where the community can truly feel at home.</p>
+
+<p>Looking ahead in addition to many smaller improvements we want to focus on four major areas.</p>
+
+<ul>
+<li><strong>Project quality metrics.</strong> Sometimes it's hard to decide if a project is usable for a given project. To make the decision process easier, we are thinking about both user-generated quality metrics (such as comments or reviews, likes, etc.) as well as machine-generated metrics (e.g. activity metrics or build and test status from continuous integration).</li>
+<li><p><strong>Workflow integration.</strong> Finding an IP core on LibreCores is just the first step of using it as part of an own project. Currently, making use of a core  involves in many cases copying the source code into the custom project. This process is tedious and makes updating a core to the latest upstream version hard.</p>
+
+<p>With LibreCores we want to explore different options to make this workflow more streamlined. One example is the integration of the LibreCores project repository with the <a href="https://github.com/olofk/fusesoc">fusesoc</a> package manager.</p></li>
+<li><p><strong>LibreCores CI.</strong> ContinuousIntegration of projects is a de-facto standard approach to improving project quality and contributor experience.
+There are many services providing free CI hosting for open-source software projects,
+but they lack some features required for hardware projects (EDA tools, running tests on hardware, etc.).</p>
+
+<p>In LibreCores we want to provide a CI instance for projects being hosted on LibreCores.
+More information is available on the <a href="./librecores-ci">LibreCores CI page</a>.</p></li>
+<li><p><strong>Documentation of best practices.</strong> At LibreCores, we love digital hardware design and want more people to get involved. Unfortunately today, getting started with digital hardware design involves climbing a steep learning curve before the one reaches productivity -- and arguably that's where all the fun starts!</p>
+
+<p>We believe a good documentation of best practices, covering both non-code issues (such as "how to organize a repository", "what license options do I have"), as well as coding related advice (such as "how to code a FSM in Verilog") is essential to get started quickly and is therefore of great benefit to the community.</p></li>
+</ul>
+
+<h3>How can I contribute to LibreCores?</h3>
+
+<p>All code and all development on LibreCores is fully open and we welcome any input you might have regarding the site.
+If you want to contribute to LibreCores, we have documented some ways to get started in the document <a href="http://librecores-web.readthedocs.io/en/latest/contributing.html">Contributing to LibreCores</a>.
+Don't be scared if you're not a programmer: There are many tasks which do not require any programming experience. Just have a look and talk to us if you didn't find a suitable task just yet.</p>
+
+<p>Code, bug tracker and project planning is done in the <a href="https://github.com/librecores/librecores-web">librecores-web repository</a> on GitHub.</p>
+
+<p>Development discussion happens on the <a href="&#x6d;&#97;&#105;l&#x74;&#x6f;&#58;d&#x65;&#x76;&#64;&#108;&#x69;&#x73;&#116;&#115;&#x2e;&#x6c;&#105;&#98;&#x72;&#x65;&#99;&#111;&#x72;&#x65;&#115;&#46;o&#x72;&#x67;">dev@lists.librecores.org</a> mailing list (<a href="https://lists.librecores.org/listinfo/dev">subscribe here</a>).</p>
+
+<p>Many developers also hang out on IRC on the <a href="http://webchat.freenode.net?channels=%23librecores&amp;uio=d4">#librecores channel on Freenode</a>.</p>
+
+</div>
+
+  <!-- footer -->
+  <hr>
+  <footer class="librecores-footer">
+    <p>
+      LibreCores is a project of the <a href="http://fossi-foundation.org">Free and Open Source Silicon Foundation</a> &middot;
+      <a href="/static/imprint">Imprint</a>
+    </p>
+  </footer>
+
+            <script src="/js/app_body.js"></script>
+    
+    <script type="text/javascript">
+          </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85345883-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
